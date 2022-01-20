@@ -17,10 +17,10 @@ exports.newShortUrl = (req, res, next) => {
 
         // Create new shortened URL in the database
         ShortUrl.create({ originalUrl: url, shortenedUrl: shortenedUrl, shortenedId: id });
-        res.status(201).json({ original_url: url, id: id, shortenedUrl: shortenedUrl });
+        res.status(201).json({ original_url: url, short_url: shortenedUrl });
     } else {
         res.json({
-            error: 'Invalid URL. Please make sure you have entered the URL with the protocol',
+            error: 'invalid url',
         });
     }
 };
