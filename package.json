@@ -1,0 +1,29 @@
+{
+  "name": "url-shortener-api",
+  "version": "1.0.0",
+  "description": "An API to shorten URLs",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/disaladamsas/url-shortener-api.git"
+  },
+  "author": "Disala Damsas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/disaladamsas/url-shortener-api/issues"
+  },
+  "homepage": "https://github.com/disaladamsas/url-shortener-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^14.2.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
