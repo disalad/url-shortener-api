@@ -27,7 +27,7 @@ This is an example of how to list things you need to use the software and how to
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/disaladamsas/url-shortener-api.git
+   git clone https://github.com/disalad/url-shortener-api.git
    ```
 
 2. Install 3rd party packages
@@ -39,7 +39,7 @@ This is an example of how to list things you need to use the software and how to
 3. Enter your mongodb uri in an enviroment file in the root directory. You can get it from [here](mongodb.com)
 
    ```env
-   MONGODB_URI = <Your Mongodb URI>
+   MONGODB_URI = <Your Mongodb atlas URI>
    ```
 
 4. Start app in a development server
@@ -56,6 +56,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Disala - damsasdisala@gmail.com
-
-Project Link - [https://github.com/disaladamsas/url-shortener-api](https://github.com/disaladamsas/url-shortener-api)
+Project Link - [https://github.com/disalad/url-shortener-api](https://github.com/disalad/url-shortener-api)
